@@ -1,0 +1,8 @@
+F74046420@2016cpp: ~/lab2/pd2_sample$ make
+g++ -c BMI.cpp
+g++ -c BMI_calc.cpp
+g++ -o BMI_calc BMI_calc.o BMI.o
+F74046420@2016cpp: ~/lab2/pd2_sample$./BMI_calc
+F74046420@2016cpp: ~/lab2/pd2_sample$ make clean
+rm BMI_calc *.o
+F74046420@2016cpp: ~/lab2/pd2_sample$ exit
